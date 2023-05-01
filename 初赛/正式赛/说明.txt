@@ -1,0 +1,19 @@
+初赛正式赛地图数据：pre_official_map.zip
+C/C++新CMake文件：CMakeLists.txt
+新版播放器，优化贴图位置偏的问题，缩小工作台贴图大小，避免过于紧凑时的部分重叠：
+Windows版： Replayer_Windows_20230323.zip
+Linux版： Replayer_Linux_20230323.zip
+MacOS版： Replayer_MacOS_20230323.zip
+
+
+变更：
+4张比赛地图为全新地图
+C/C++语言的CMakeLists.txt 支持链接多线程、数学库
+Java的JVM运行参数增加-XX:TieredStopAtLevel=1参数，以避免JIT带来的毛刺影响。
+
+
+不变点：
+赛题不变，即所有题目文档中描述的内容（得分机制、地图机制、机器人等）都不会变化
+地图数量不变
+地图保持公开不变
+每日提交次数不变
